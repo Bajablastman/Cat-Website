@@ -1,0 +1,68 @@
+/* Style Sheet */
+
+/* page styles */
+html {
+    background: url("images/cat.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+div.cat, div.cat2, div.cat3, div.cat4 {
+    border-radius: 25px;
+    width: 600px;
+    margin: 50px auto;
+    padding: 40px 75px;
+    background-color: rgb(253, 227, 248);
+    box-shadow: 4px 4px black;
+}
+
+div.gallery {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+/* Text styles */
+
+
+h1, h2, p {
+    font-family: 'Lobster', cursive;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-shadow: 2px 2px black;
+}
+
+ul, p.para {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* cat gallery */
+img {
+    width: 250px;
+    height: 200px;
+    vertical-align: middle;
+}
+div.gallery {
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
